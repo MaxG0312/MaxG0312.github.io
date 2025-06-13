@@ -17,7 +17,7 @@
 	<div class="container">
         <h1>Réalisation technique du projet</h1>
 		<p>
-			Cette page se concentre sur la réalisation technique du projet ainsi que les savoirs et savoir-faire qui y sont liés. Les apprentissages critiques présentés seront surtout dans les <b>compétences 1, 
+			Cette page se concentre sur la réalisation technique du projet ainsi que sur les savoirs et savoir-faire qui y sont liés. Les apprentissages critiques présentés seront surtout dans les <b>compétences 1, 
 			réaliser un développement d'application, et 4, gérer les données de l'information</b>.
 		</p>
 		
@@ -34,7 +34,7 @@
 		
         <p>
             La démarche suivie reposait souvent sur une <b>logique incrémentale</b> : j’avançais par petites étapes, en testant régulièrement le comportement du code.
-			Cette méthode m'a permis de mettre les tests au coeur de l'implémentation même si elle était dirigé par la réalisation de fonctionnalités.
+			Cette méthode m'a permis de mettre les tests au cœur de l'implémentation même si elle était dirigée par la réalisation de fonctionnalités.
         </p>
 		
 		<p>
@@ -109,14 +109,14 @@
 		
 		<p>
 			Pour construire le rapport qui sert de base au tableau de bord, j'ai pu m'assister d'un <b>début déjà créé</b> (cf Fig2). Il s'agissait surtout d'une <b>mise en relation des tables principales de la base de données et 
-			de graphiques et premiers filtres</b>. À partir de cette base j'ai pu ajouter d'autres indicateurs (top 5 incidents et demandes les plus fréquentes, ratio ouverture/fermeture tickets...) et graphique pour répondre aux attentes qui m'étaient fixées.
+			de graphiques et premiers filtres</b>. À partir de cette base, j'ai pu ajouter d'autres indicateurs (top 5 incidents et demandes les plus fréquents, ratio ouverture/fermeture des tickets...) et graphiques pour répondre aux attentes qui m'étaient fixées.
 		</p>
 		
 		<p>
-			Après avoir discuté plus amplement avec l'équipe qui utilisera le tableau de bord final, j'ai pu voir l'<b>importance d'avoir les données en temps réels</b>. Cela m'a donc poussé à <b>passer en mode Direct Query</b>.
-			À la diférence de import, direct query <b>ne stocke pas les données</b> avec le rapport mais seulement une passerelle (adresse de connexion) et les requêtes qui seront envoyées à la source. 
-			Le principal atout est la possibilité de pouvoir travailler sur des données en temps réels sans avoir à télécharger toute la base de données en permanence mais il peut fonctionner de manière hybride avec des tables importées. 
-			J'ai donc utilisé import sur mes tables de classification (volume faible, besoin constant, rarement mise à jour) pour améliorer les performances du tableau de bord.
+			Après avoir discuté plus amplement avec l'équipe qui utilisera le tableau de bord final, j'ai pu voir l'<b>importance d'avoir les données en temps réel</b>. Cela m'a donc poussé à <b>passer en mode Direct Query</b>.
+			À la différence de Import, direct query <b>ne stocke pas les données</b> avec le rapport, mais seulement une passerelle (adresse de connexion) et les requêtes qui seront envoyées à la source. 
+			Le principal atout est la possibilité de pouvoir travailler sur des données en temps réels sans avoir à télécharger toute la base de données en permanence, mais il peut fonctionner de manière hybride avec des tables importées. 
+			J'ai donc utilisé Import sur mes tables de classification (volume faible, besoin constant, rarement mises à jour) pour améliorer les performances du tableau de bord.
 		</p>
 		
 		<h4>Apprentissages critiques mobilisés :</h4>
@@ -141,15 +141,15 @@
 		</figure>
 		
 		<p>
-			Le coeur du sujet était la <b>gestion des données, leur manipulation et leur restitution sous forme visuelle</b>. 
-			J’ai été amené à interagir directement avec des bases de données relationnelles, notamment en formulant des <b>requêtes SQL, plus tard en M pour Direct Query</b>(cf Fig3) pour filtrer, 
+			Le cœur du sujet était la <b>gestion des données, leur manipulation et leur restitution sous forme visuelle</b>. 
+			J’ai été amené à interagir directement avec des bases de données relationnelles, notamment en formulant des <b>requêtes SQL, plus tard en M pour Direct Query</b> (cf Fig3) pour filtrer, 
 			agréger ou croiser des données issues de différentes tables.
 		</p>
 		
 		<p>
 			En complément, j’ai créé des <b>représentations graphiques</b> destinées à <b>faciliter l’analyse ou la prise de décision</b>. 
 			Cela m’a conduit à réfléchir aux types de visualisations les plus pertinents selon les données traitées (graphiques en barres, camemberts, courbes, etc.) et à organiser ces visualisations de manière claire pour l’utilisateur final.
-			J'avais déjà pu m'exercer sur ce sujet à l'IUT mais c'est grâce à ce contexte concret que j'ai pu en constater l'importance et la subtilité.
+			J'avais déjà pu m'exercer sur ce sujet à l'IUT, mais c'est grâce à ce contexte concret que j'ai pu en constater l'importance et la subtilité.
 		</p>
 		
 		<h4>Apprentissages critiques mobilisés :</h4>
@@ -176,7 +176,7 @@
 		
 		<p>
 			J’ai été amené à <b>découvrir et à utiliser Power BI</b>, un outil que je ne maîtrisais pas auparavant. L’apprentissage de ce logiciel s’est fait de manière progressive et autonome.
-			Avant le début de mon stage, j'ai pu me familiariser avec les interfaces et fonctionnalités basiques grâce aux tutoriels mis à disposition par microsoft.
+			Avant le début de mon stage, j'ai pu me familiariser avec les interfaces et fonctionnalités basiques grâce aux tutoriels mis à disposition par Microsoft.
 			Puis j’ai approfondi les notions plus avancées telles que la modélisation des données, la création de mesures avec DAX et l’utilisation de filtres interactifs. 
 			Cette montée en compétence a été rendue possible grâce à la consultation régulière de la documentation et de ressources en ligne.
 		</p>
@@ -216,8 +216,8 @@
 		</figure>
 		
 		<p>
-			L'une des principales difficultés que j'ai rencontré était <b>la taille et la complexité de des bases de données</b> que j'ai dû explorer, une dizaine de bases (cf Fig4 gauche) avec chacune une cinquantaine de tables elle-mêmes 
-			avec 30 à 70 colonnes (cf Fig4 droite), le tout sans modèle logique ou conceptuel. Heureusement j'ai pu <b>m'appuyer sur deux éléments : le début de tableau de bord déjà existant et l'application EasyVista</b>.
+			L'une des principales difficultés que j'ai rencontrées était <b>la taille et la complexité des bases de données</b> que j'ai dû explorer, une dizaine de bases (cf Fig4 gauche) avec chacune une cinquantaine de tables elles-mêmes 
+			avec 30 à 70 colonnes (cf Fig4 droite), le tout sans modèle logique ou conceptuel. Heureusement, j'ai pu <b>m'appuyer sur deux éléments : le début de tableau de bord déjà existant et l'application EasyVista</b>.
 			Le premier m'a permis de former un noyau avec des tables essentielles pour mes graphiques fondamentaux. Grâce au second, j'ai pu étendre ce noyau en comprenant mieux les relations 
 			à l'intérieur de la base de données et la nomenclature pour trouver plus efficacement ce que je cherche.
 		</p>
@@ -248,7 +248,7 @@
 		<p>
 			La sécurité des données a été un aspect important tout au long de mon stage. 
 			J’ai notamment travaillé sur la <b>mise en place de mécanismes de contrôle d’accès</b> au niveau du tableau de bord afin de garantir le <b>principe du moindre privilège</b>. 
-			Pour cela, j’ai utilisé le <b>Row Level Security dynamique</b>, celui-ci détecte si l'utilisateur est administrateur ou non, 
+			Pour cela, j’ai utilisé le <b>Row Level Security dynamique</b> : celui-ci détecte si l'utilisateur est administrateur ou non, 
 			puis filtre les données pour qu'il ne puisse voir que ses données et celles des personnes dont il est responsable.
 		</p>
 		
@@ -258,9 +258,9 @@
 		</figure>
 		
 		<p>
-			Pour mettre en place le filtre (cf Fig6), j'ai dû <b>récupéré l'adresse mail</b> de l'utilisateur et retrouver un identifiant. 
-			Ensuite je peux chercher dans les PATH (les listes chaînées de Power BI) contenant les relations hierarchiques des utilisateurs cet identifiant.
-			Si la <b>rehcerche donne vrai</b>, la ligne reste dans la table et, avec la propagation des filtres via les relations du modèle, <b>les autres tables sont filtrées</b>.
+			Pour mettre en place le filtre (cf Fig6), j'ai dû <b>récupérer l'adresse mail</b> de l'utilisateur et retrouver un identifiant. 
+			Ensuite, je peux chercher dans les PATH (les listes chaînées de Power BI) contenant les relations hiérarchiques des utilisateurs cet identifiant.
+			Si la <b>recherche donne vrai</b>, la ligne reste dans la table et, avec la propagation des filtres via les relations du modèle, <b>les autres tables sont filtrées</b>.
 		</p>
 		
 		<figure class="center">
@@ -273,7 +273,7 @@
 		</figure>
 		
 		<p>
-			La figure 7 montre le <b>fonctionnement de ce filtre</b>. Dans les trois cas, il s'agit tu <b>même tableau mais filtré automatiquement</b>.
+			La figure 7 montre le <b>fonctionnement de ce filtre</b>. Dans les trois cas, il s'agit du <b>même tableau, mais filtré automatiquement</b>.
 			<ul>
 				<li>À gauche, le directeur du SID est connecté, tous les utilisateurs sont donc visibles.</li>
 				<li>Au milieu, le responsable du Service Desk est connecté, seuls les utilisateurs de ce service sont visibles.</li>
@@ -290,8 +290,8 @@
 		</figure>
 		
 		<p>
-			Par ailleurs, l’<b>optimisation des requêtes</b> a été une autre composante importante de mon travail. J’ai analysé les performances des requêtes SQL, 
-			j'ai pu grâce à ça trouver un équilibre entre les tables intérogées (en temps réel avec direct query) et celles importées (mises à jour manuellemnt car téléchargées). 
+			Par ailleurs, l’<b>optimisation des requêtes</b> a été une autre composante importante de mon travail. J’ai analysé les performances des requêtes SQL et 
+			j'ai pu, grâce à ça, trouver un équilibre entre les tables interrogées (en temps réel avec Direct Query) et celles importées (mises à jour manuellement car téléchargées). 
 			Ces optimisations ont contribué à améliorer la réactivité globale du système, un facteur clé pour garantir une bonne expérience utilisateur.
 		</p>
 		
@@ -313,7 +313,7 @@
 	<div class="container">	
 		<h3>2.5. Exploitation avancée des données</h3>
 		<p>
-			La préparation et et extraction des données n'a pas été le coeur de mon stage. En effet, même si certaines colonnes avaient besoin de changer de format pour être plus facilement exploitable et
+			La préparation et l'extraction des données n'ont pas été le cœur de mon stage. En effet, même si certaines colonnes avaient besoin de changer de format pour être plus facilement exploitable et
 			que j'ai dû utiliser des colonnes calculées pour mieux mettre en valeur certains phénomènes, les données provenaient toutes de la même source et avaient le même format.
 		</p>
 		
